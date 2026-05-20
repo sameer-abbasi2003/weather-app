@@ -31,7 +31,7 @@ function changeIcon(weatherMain){
 }
 
 const url="https://api.openweathermap.org/data/2.5/weather?";
-const apiKey="dab155ac32be6fc4c28ae4ee225cc788";
+const apiKey="";
 
 async function getWeatherData(city) {
     let finalUrl=`${url}q=${city}&appid=${apiKey}`;
